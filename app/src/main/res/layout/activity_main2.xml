@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Main2Activity">
 
     <TextView
         android:id="@+id/title"
@@ -80,7 +80,7 @@
                 android:src="@drawable/mane_image" />
 
             <TextView
-                android:id="@+id/player_name"
+                android:id="@+id/player_name_2"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -90,7 +90,7 @@
                 android:textSize="17sp" />
 
             <TextView
-                android:id="@+id/player_score"
+                android:id="@+id/player_score_2"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -117,7 +117,7 @@
                         android:layout_weight="1"
                         android:text="XG: "/>
                     <TextView
-                        android:id="@+id/ExpectedGoals"
+                        android:id="@+id/ExpectedGoals_2"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1" />
@@ -261,5 +261,6 @@
                 android:layout_weight="1" />
         </LinearLayout>
     </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
